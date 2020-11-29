@@ -11,30 +11,32 @@ A simple TodoList Web application by Golang(using framework gin&amp;gorm)
 
 * 文件结构:
 
-> ├── controller
-> │   └── controller.go
-> ├── dao
-> │   └── mysql.go
-> ├── go.mod
-> ├── go.sum
-> ├── main.go
-> ├── model
-> │   └── todo.go
-> ├── router
-> │   └── router.go
-> ├── static
-> │   ├── css
-> │   │   ├── app.708ce172.css
-> │   │   └── chunk-vendors.57db8905.css
-> │   ├── fonts
-> │   │   ├── element-icons.535877f5.woff
-> │   │   └── element-icons.732389de.ttf
-> │   └── js
-> │       ├── app.82bdd871.js
-> │       └── chunk-vendors.ddcb6f91.js
-> └── templates
->     ├── favicon.ico
->     └── index.html
+ ├── controller
+ │   └── controller.go
+ ├── dao
+ │   └── mysql.go
+ ├── go.mod
+ ├── go.sum
+ ├── main.go
+ ├── model
+ │   └── todo.go
+ ├── router
+ │   └── router.go
+ ├── static
+ │   ├── css
+ │   │   ├── app.708ce172.css
+ │   │   └── chunk-vendors.57db8905.css
+ │   ├── fonts
+ │   │   ├── element-icons.535877f5.woff
+ │   │   └── element-icons.732389de.ttf
+ │   └── js
+ │       ├── app.82bdd871.js
+ │       └── chunk-vendors.ddcb6f91.js
+ └── templates
+     ├── favicon.ico
+     └── index.html
+
+
 
 controller->路由控制函数
 
